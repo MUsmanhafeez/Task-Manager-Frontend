@@ -1,5 +1,4 @@
 import axios from "axios";
-
 export const getTasks = async () => {
   return await axios.get(`${process.env.REACT_APP_BACKEND_BASEURL}/task/get`);
 };
